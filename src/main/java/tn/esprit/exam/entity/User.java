@@ -30,6 +30,6 @@ public class User {
     @JsonIgnore
     private Set<Goal> goals;
 
-    public <E> List<E> getgoals() {
+    //public <E> List<E> getgoals() {
     }
 }
