@@ -27,10 +27,7 @@ public class Goal {
     private LocalDate lastUpdated;
     private LocalDate dueDate;
 
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @ToString.Exclude
-    @JsonIgnore
-    private Set<CareerResources> careerResources;
+   
 
 
     public void setStatus(Status status) {
